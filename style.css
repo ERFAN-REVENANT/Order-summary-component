@@ -96,3 +96,12 @@ body{
     font-family: "red Hat Display";
     font-weight: bold;
 }
+.change:hover{
+    color: #766cf1;
+}
+.done:hover{
+    background-color: #766cf1;
+}
+.cancel:hover{
+    color: #2a3750;
+}
