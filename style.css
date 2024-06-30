@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-color: #d6e1ff;
+}
+.card{
+    margin: auto;
+    width: 350px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 9999;
+    font-family: "Red Hat Display";
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin-top:13vh ;
+}
+.pic img{
+    height: auto;
+    width: 350px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.title{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #23304b;
+}
+.info{
+    color: #74768c;
+    font-weight: 500;
+    font-size: 14px;
+    width: 270px;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f9fe;
+    width: 270px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+}
+.order-info{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 7px;
+}
+.order-info p1{
+    font-weight: bold;
+}
+.order-info p2{
+    font-weight: 500;
+    color: #76798c;
+}
+.icon-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.icon img{
+    height: auto;
+    width: 40px;
+}
+.change{
+    text-decoration: underline;
+    color: #382ae1;
+    background-color: #f8f9fe;
+    border: none;
+    font-weight: 700;
+    font-family: "Red Hat Display";
+}
+.done{
+    background-color: #382ae1;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-family: "Red Hat Display";
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin-bottom: 10px;
+}
+.cancel{
+    border: none;
+    background-color: #fefefe;
+    color: #707a9b;
+    font-family: "red Hat Display";
+    font-weight: bold;
+}
